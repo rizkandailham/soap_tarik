@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "rsud";
-$password = "RSUDSekayu18@";
+$password = "";
 $dbname = "akter";
 
 $conn= new mysqli($servername, $username,$password,$dbname);
@@ -62,4 +62,3 @@ $sql="insert into data_absenit(pin,date_time,verfied,status) values('0','0000-00
 echo $data_gagal;
 
 ?>
-
